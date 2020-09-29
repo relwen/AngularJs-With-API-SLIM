@@ -1,0 +1,44 @@
+<!DOCTYPE html >
+<html ng-app="allRoute">
+    
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <title>{{titre}}</title>
+
+            <!-- Elegant font icons -->
+    <link href="assets/vendor/elegant_font/HTMLCSS/style.css" rel="stylesheet">
+
+    <!-- Elegant font icons -->
+    <link href="assets/vendor/materializeicon/material-icons.css" rel="stylesheet">
+
+    <!-- Swiper Slider -->
+    <link href="assets/vendor/swiper/css/swiper.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style-red.css" rel="stylesheet" id="style">
+
+    </head>
+    
+    <body>
+        
+        <!-- Preloder lors du chargement de la page -->
+
+        <ng-view> </ng-view>
+
+<!-- DEFINITION DES ANGULAR SCRIPT --> 
+
+<script src="bin/components/angular.min.js"></script>
+<script src="bin/components/angular-route.js"></script>
+<script src="bin/route/route.js"></script>
+<script src="bin/controllers/appControllers.js"></script>
+
+
+<!-- BRIDGE ANDROID JAVASCRIPT -->
+
+</body>
+
+</html>
+
+
+
